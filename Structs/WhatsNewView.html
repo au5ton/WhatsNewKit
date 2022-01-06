@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>WhatsNewViewController Class Reference</title>
+    <title>WhatsNewView Structure Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -13,8 +13,8 @@
     <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/WhatsNewViewController" class="dashAnchor"></a>
-    <a title="WhatsNewViewController Class Reference"></a>
+    <a name="//apple_ref/swift/Struct/WhatsNewView" class="dashAnchor"></a>
+    <a title="WhatsNewView Structure Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html"> Docs</a> (100% documented)</p>
@@ -29,7 +29,7 @@
       <p id="breadcrumbs">
         <a href="../index.html"> Reference</a>
         <img id="carat" src="../img/carat.png" alt=""/>
-        WhatsNewViewController Class Reference
+        WhatsNewView Structure Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -151,26 +151,36 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>WhatsNewViewController</h1>
+            <h1>WhatsNewView</h1>
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">WhatsNewViewController</span> <span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:11WhatsNewKit0aB17HostingControllera">WhatsNewHostingController</a></span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">WhatsNewView</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">WhatsNewView</span><span class="p">:</span> <span class="kt">View</span></code></pre>
 
                 </div>
               </div>
-            <p>A WhatsNew UIViewController</p>
+            <p>A WhatsNewView</p>
 
           </section>
           <section class="section task-group-section">
             <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initializer"></a>
+                <a name="//apple_ref/swift/Section/Initializer" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Initializer"></a>
+                  <h3 class="section-name"><span>Initializer</span>
+</h3>
+                </div>
+              </div>
               <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11WhatsNewKit0aB14ViewControllerC05whatsB06layoutAcA0aB0V_AG6LayoutVtcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(whatsNew:layout:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11WhatsNewKit0aB14ViewControllerC05whatsB06layoutAcA0aB0V_AG6LayoutVtcfc">init(whatsNew:<wbr>layout:<wbr>)</a>
+                    <a name="/s:11WhatsNewKit0aB4ViewV05whatsB012versionStore6layoutAcA0aB0V_AA08Readableab7VersionG0_AA09WriteableabjG0pSgAH6LayoutVtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(whatsNew:versionStore:layout:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB4ViewV05whatsB012versionStore6layoutAcA0aB0V_AA08Readableab7VersionG0_AA09WriteableabjG0pSgAH6LayoutVtcfc">init(whatsNew:<wbr>versionStore:<wbr>layout:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -178,7 +188,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Creates a new instance of <code>WhatsNewViewController</code></p>
+                        <p>Creates a new instance of <code>WhatsNewView</code></p>
 
                       </div>
                       <div class="declaration">
@@ -187,72 +197,7 @@
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span>
     <span class="nv">whatsNew</span><span class="p">:</span> <span class="kt"><a href="../Structs/WhatsNew.html">WhatsNew</a></span><span class="p">,</span>
-    <span class="nv">layout</span><span class="p">:</span> <span class="kt"><a href="../Structs/WhatsNew.html">WhatsNew</a></span><span class="o">.</span><span class="kt">Layout</span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span>
-<span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>whatsNew</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The WhatsNew object</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>layout</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The WhatsNew Layout. Default value <code>.default</code></p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11WhatsNewKit0aB14ViewControllerC05whatsB012versionStore6layoutACSgAA0aB0V_AA08Readableab7VersionH0_AA09WriteableabkH0pAI6LayoutVtcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(whatsNew:versionStore:layout:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11WhatsNewKit0aB14ViewControllerC05whatsB012versionStore6layoutACSgAA0aB0V_AA08Readableab7VersionH0_AA09WriteableabkH0pAI6LayoutVtcfc">init(whatsNew:<wbr>versionStore:<wbr>layout:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Creates a new instance of <code>WhatsNewViewController</code>
-by using the provided <code><a href="../Typealiases.html#/s:11WhatsNewKit0aB12VersionStorea">WhatsNewVersionStore</a></code> to verify that the
-version of the WhatsNew object has not already been presented to the user.
-If the version is contained in the provided <code><a href="../Typealiases.html#/s:11WhatsNewKit0aB12VersionStorea">WhatsNewVersionStore</a></code> the initializer
-will return <code>nil</code></p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">?(</span>
-    <span class="nv">whatsNew</span><span class="p">:</span> <span class="kt"><a href="../Structs/WhatsNew.html">WhatsNew</a></span><span class="p">,</span>
-    <span class="nv">versionStore</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:11WhatsNewKit0aB12VersionStorea">WhatsNewVersionStore</a></span><span class="p">,</span>
+    <span class="nv">versionStore</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:11WhatsNewKit0aB12VersionStorea">WhatsNewVersionStore</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
     <span class="nv">layout</span><span class="p">:</span> <span class="kt"><a href="../Structs/WhatsNew.html">WhatsNew</a></span><span class="o">.</span><span class="kt">Layout</span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span>
 <span class="p">)</span></code></pre>
 
@@ -282,7 +227,7 @@ will return <code>nil</code></p>
                               </td>
                               <td>
                                 <div>
-                                  <p>The WhatsNewVersionStore</p>
+                                  <p>The optional WhatsNewVersionStore. Default value <code>nil</code></p>
                                 </div>
                               </td>
                             </tr>
@@ -300,6 +245,46 @@ will return <code>nil</code></p>
                             </tr>
                           </tbody>
                         </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/View"></a>
+                <a name="//apple_ref/swift/Section/View" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/View"></a>
+                  <h3 class="section-name"><span>View</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB4ViewV4bodyQrvp"></a>
+                    <a name="//apple_ref/swift/Property/body" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB4ViewV4bodyQrvp">body</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The content and behavior of the view.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">body</span><span class="p">:</span> <span class="kd">some</span> <span class="kt">View</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>

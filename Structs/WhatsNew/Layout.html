@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Layout Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+    <script src="../../js/lunr.min.js" defer></script>
+    <script src="../../js/typeahead.jquery.js" defer></script>
+    <script src="../../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/Layout" class="dashAnchor"></a>
+    <a title="Layout Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html"> Docs</a> (100% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html"> Reference</a>
+        <img id="carat" src="../../img/carat.png" alt=""/>
+        Layout Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Classes/InMemoryWhatsNewVersionStore.html">InMemoryWhatsNewVersionStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/WhatsNewEnvironment.html">WhatsNewEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/WhatsNewEnvironment/Key.html">– Key</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/WhatsNewViewController.html">WhatsNewViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Enums/WhatsNewCollectionBuilder.html">WhatsNewCollectionBuilder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Extensions/EnvironmentValues.html">EnvironmentValues</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/View.html">View</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Protocols/ReadableWhatsNewVersionStore.html">ReadableWhatsNewVersionStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/WhatsNewCollectionProvider.html">WhatsNewCollectionProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/WriteableWhatsNewVersionStore.html">WriteableWhatsNewVersionStore</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Structs/NSUbiquitousKeyValueWhatsNewVersionStore.html">NSUbiquitousKeyValueWhatsNewVersionStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/UserDefaultsWhatsNewVersionStore.html">UserDefaultsWhatsNewVersionStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/WhatsNew.html">WhatsNew</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/WhatsNew/Feature.html">– Feature</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/WhatsNew/HapticFeedback.html">– HapticFeedback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/WhatsNew/Layout.html">– Layout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/WhatsNew/PrimaryAction.html">– PrimaryAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/WhatsNew/SecondaryAction.html">– SecondaryAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/WhatsNew/Text.html">– Text</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/WhatsNew/Title.html">– Title</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/WhatsNew/Version.html">– Version</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/WhatsNewView.html">WhatsNewView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:11WhatsNewKit05CloudcaB12VersionStorea">CloudKitWhatsNewVersionStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:11WhatsNewKit0aB10Collectiona">WhatsNewCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/WhatsNewHostingController">WhatsNewHostingController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:11WhatsNewKit0aB17HostingControllera">WhatsNewHostingController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:11WhatsNewKit0aB12VersionStorea">WhatsNewVersionStore</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Layout</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Layout</span></code></pre>
+
+                </div>
+              </div>
+            <p>The WhatsNew Layout</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Properties"></a>
+                <a name="//apple_ref/swift/Section/Properties" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Properties"></a>
+                  <h3 class="section-name"><span>Properties</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V6LayoutV25showsScrollViewIndicatorsSbvp"></a>
+                    <a name="//apple_ref/swift/Property/showsScrollViewIndicators" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V6LayoutV25showsScrollViewIndicatorsSbvp">showsScrollViewIndicators</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A Boolean value if the scroll view indicator should be visible</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">showsScrollViewIndicators</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V6LayoutV28scrollViewBottomContentInset12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/scrollViewBottomContentInset" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V6LayoutV28scrollViewBottomContentInset12CoreGraphics7CGFloatVvp">scrollViewBottomContentInset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The scroll view bottom content inset</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">scrollViewBottomContentInset</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V6LayoutV14contentSpacing12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/contentSpacing" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V6LayoutV14contentSpacing12CoreGraphics7CGFloatVvp">contentSpacing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The content spacing</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">contentSpacing</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V6LayoutV14contentPadding7SwiftUI10EdgeInsetsVvp"></a>
+                    <a name="//apple_ref/swift/Property/contentPadding" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V6LayoutV14contentPadding7SwiftUI10EdgeInsetsVvp">contentPadding</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The content padding</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">contentPadding</span><span class="p">:</span> <span class="kt">EdgeInsets</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V6LayoutV18featureListSpacing12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/featureListSpacing" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V6LayoutV18featureListSpacing12CoreGraphics7CGFloatVvp">featureListSpacing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The feature list spacing</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">featureListSpacing</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V6LayoutV18featureListPadding7SwiftUI10EdgeInsetsVvp"></a>
+                    <a name="//apple_ref/swift/Property/featureListPadding" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V6LayoutV18featureListPadding7SwiftUI10EdgeInsetsVvp">featureListPadding</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The feature list padding</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">featureListPadding</span><span class="p">:</span> <span class="kt">EdgeInsets</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V6LayoutV17featureImageWidth12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/featureImageWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V6LayoutV17featureImageWidth12CoreGraphics7CGFloatVvp">featureImageWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The feature image width</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">featureImageWidth</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V6LayoutV24featureHorizontalSpacing12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/featureHorizontalSpacing" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V6LayoutV24featureHorizontalSpacing12CoreGraphics7CGFloatVvp">featureHorizontalSpacing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The feature horizontal spacing</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">featureHorizontalSpacing</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V6LayoutV22featureVerticalSpacing12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/featureVerticalSpacing" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V6LayoutV22featureVerticalSpacing12CoreGraphics7CGFloatVvp">featureVerticalSpacing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The feature vertical spacing</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">featureVerticalSpacing</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V6LayoutV19footerActionSpacing12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/footerActionSpacing" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V6LayoutV19footerActionSpacing12CoreGraphics7CGFloatVvp">footerActionSpacing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The footer action spacing</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">footerActionSpacing</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V6LayoutV37footerPrimaryActionButtonCornerRadius12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/footerPrimaryActionButtonCornerRadius" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V6LayoutV37footerPrimaryActionButtonCornerRadius12CoreGraphics7CGFloatVvp">footerPrimaryActionButtonCornerRadius</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The corner radius of the primary action button</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">footerPrimaryActionButtonCornerRadius</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V6LayoutV29footerVisualEffectViewPadding7SwiftUI10EdgeInsetsVvp"></a>
+                    <a name="//apple_ref/swift/Property/footerVisualEffectViewPadding" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V6LayoutV29footerVisualEffectViewPadding7SwiftUI10EdgeInsetsVvp">footerVisualEffectViewPadding</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The footer visual effect view padding</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">footerVisualEffectViewPadding</span><span class="p">:</span> <span class="kt">EdgeInsets</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initializer"></a>
+                <a name="//apple_ref/swift/Section/Initializer" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Initializer"></a>
+                  <h3 class="section-name"><span>Initializer</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V6LayoutV25showsScrollViewIndicators06scrollG18BottomContentInset14contentSpacing0M7Padding011featureListN00pqO00P10ImageWidth0p10HorizontalN00p8VerticalN0012footerActionN00v7PrimaryW18ButtonCornerRadius0v12VisualEffectgO0AESb_12CoreGraphics7CGFloatVAT7SwiftUI10EdgeInsetsVAtw5tWtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(showsScrollViewIndicators:scrollViewBottomContentInset:contentSpacing:contentPadding:featureListSpacing:featureListPadding:featureImageWidth:featureHorizontalSpacing:featureVerticalSpacing:footerActionSpacing:footerPrimaryActionButtonCornerRadius:footerVisualEffectViewPadding:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V6LayoutV25showsScrollViewIndicators06scrollG18BottomContentInset14contentSpacing0M7Padding011featureListN00pqO00P10ImageWidth0p10HorizontalN00p8VerticalN0012footerActionN00v7PrimaryW18ButtonCornerRadius0v12VisualEffectgO0AESb_12CoreGraphics7CGFloatVAT7SwiftUI10EdgeInsetsVAtw5tWtcfc">init(showsScrollViewIndicators:<wbr>scrollViewBottomContentInset:<wbr>contentSpacing:<wbr>contentPadding:<wbr>featureListSpacing:<wbr>featureListPadding:<wbr>featureImageWidth:<wbr>featureHorizontalSpacing:<wbr>featureVerticalSpacing:<wbr>footerActionSpacing:<wbr>footerPrimaryActionButtonCornerRadius:<wbr>footerVisualEffectViewPadding:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a new instance of <code>WhatsNew.Layout</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span>
+    <span class="nv">showsScrollViewIndicators</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">,</span>
+    <span class="nv">scrollViewBottomContentInset</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">150</span><span class="p">,</span>
+    <span class="nv">contentSpacing</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">60</span><span class="p">,</span>
+    <span class="nv">contentPadding</span><span class="p">:</span> <span class="kt">EdgeInsets</span> <span class="o">=</span> <span class="o">.</span><span class="nf">init</span><span class="p">(</span><span class="nv">top</span><span class="p">:</span> <span class="mi">65</span><span class="p">,</span> <span class="nv">leading</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">bottom</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">trailing</span><span class="p">:</span> <span class="mi">0</span><span class="p">),</span>
+    <span class="nv">featureListSpacing</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">25</span><span class="p">,</span>
+    <span class="nv">featureListPadding</span><span class="p">:</span> <span class="kt">EdgeInsets</span> <span class="o">=</span> <span class="o">.</span><span class="nf">init</span><span class="p">(</span><span class="nv">top</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">leading</span><span class="p">:</span> <span class="mi">15</span><span class="p">,</span> <span class="nv">bottom</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">trailing</span><span class="p">:</span> <span class="mi">0</span><span class="p">),</span>
+    <span class="nv">featureImageWidth</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">40</span><span class="p">,</span>
+    <span class="nv">featureHorizontalSpacing</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">15</span><span class="p">,</span>
+    <span class="nv">featureVerticalSpacing</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span>
+    <span class="nv">footerActionSpacing</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">15</span><span class="p">,</span>
+    <span class="nv">footerPrimaryActionButtonCornerRadius</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">14</span><span class="p">,</span>
+    <span class="nv">footerVisualEffectViewPadding</span><span class="p">:</span> <span class="kt">EdgeInsets</span> <span class="o">=</span> <span class="o">.</span><span class="nf">init</span><span class="p">(</span><span class="nv">top</span><span class="p">:</span> <span class="o">-</span><span class="mi">10</span><span class="p">,</span> <span class="nv">leading</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">bottom</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">trailing</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>showsScrollViewIndicators</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A Boolean value if the scroll view indicator should be visible. Default value <code>false</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>scrollViewBottomContentInset</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The scroll view bottom content inset. Default value <code>150</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>contentSpacing</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The content spacing. Default value <code>60</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>contentPadding</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The content padding. Default value <code>top: 65</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>featureListSpacing</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The feature list spacing. Default value <code>25</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>featureListPadding</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The feature list padding. Default value <code>leading: 15</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>featureImageWidth</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The feature image width. Default value <code>40</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>featureHorizontalSpacing</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The feature horizontal spacing. Default value <code>15</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>featureVerticalSpacing</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The feature vertical spacing. Default value <code>2</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>footerActionSpacing</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The footer action spacing. Default value <code>15</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>footerPrimaryActionButtonCornerRadius</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The corner radius of the primary action button. Default value <code>14</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>footerVisualEffectViewPadding</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The footer visual effect view padding. Default value <code>top: -10</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Layout%2Bdefault"></a>
+                <a name="//apple_ref/swift/Section/Layout+default" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Layout%2Bdefault"></a>
+                  <h3 class="section-name"><span>Layout+default</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V6LayoutV7defaultAEvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/default" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V6LayoutV7defaultAEvpZ">default</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The mutable default Layout</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">var</span> <span class="p">`</span><span class="nv">default</span><span class="p">`:</span> <span class="kt"><a href="../../Structs/WhatsNew.html">WhatsNew</a></span><span class="o">.</span><span class="kt">Layout</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Layout%2Breset"></a>
+                <a name="//apple_ref/swift/Section/Layout+reset" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Layout%2Breset"></a>
+                  <h3 class="section-name"><span>Layout+reset</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V6LayoutV5resetyyF"></a>
+                    <a name="//apple_ref/swift/Method/reset()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V6LayoutV5resetyyF">reset()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reset the Layout to default values</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">mutating</span> <span class="kd">func</span> <span class="nf">reset</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2022-01-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Image Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../../js/jquery.min.js" defer></script>
+    <script src="../../../js/jazzy.js" defer></script>
+    
+    <script src="../../../js/lunr.min.js" defer></script>
+    <script src="../../../js/typeahead.jquery.js" defer></script>
+    <script src="../../../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/Image" class="dashAnchor"></a>
+    <a title="Image Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../../index.html"> Docs</a> (100% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../../../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../../index.html"> Reference</a>
+        <img id="carat" src="../../../img/carat.png" alt=""/>
+        Image Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../../Classes/InMemoryWhatsNewVersionStore.html">InMemoryWhatsNewVersionStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Classes/WhatsNewEnvironment.html">WhatsNewEnvironment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Classes/WhatsNewEnvironment/Key.html">– Key</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Classes/WhatsNewViewController.html">WhatsNewViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../../Enums/WhatsNewCollectionBuilder.html">WhatsNewCollectionBuilder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../../Extensions/EnvironmentValues.html">EnvironmentValues</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Extensions/View.html">View</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../../Protocols/ReadableWhatsNewVersionStore.html">ReadableWhatsNewVersionStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Protocols/WhatsNewCollectionProvider.html">WhatsNewCollectionProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Protocols/WriteableWhatsNewVersionStore.html">WriteableWhatsNewVersionStore</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../../Structs/NSUbiquitousKeyValueWhatsNewVersionStore.html">NSUbiquitousKeyValueWhatsNewVersionStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/UserDefaultsWhatsNewVersionStore.html">UserDefaultsWhatsNewVersionStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/WhatsNew.html">WhatsNew</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/WhatsNew/Feature.html">– Feature</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/WhatsNew/HapticFeedback.html">– HapticFeedback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/WhatsNew/Layout.html">– Layout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/WhatsNew/PrimaryAction.html">– PrimaryAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/WhatsNew/SecondaryAction.html">– SecondaryAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/WhatsNew/Text.html">– Text</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/WhatsNew/Title.html">– Title</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/WhatsNew/Version.html">– Version</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/WhatsNewView.html">WhatsNewView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../../Typealiases.html#/s:11WhatsNewKit05CloudcaB12VersionStorea">CloudKitWhatsNewVersionStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Typealiases.html#/s:11WhatsNewKit0aB10Collectiona">WhatsNewCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Typealiases.html#/WhatsNewHostingController">WhatsNewHostingController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Typealiases.html#/s:11WhatsNewKit0aB17HostingControllera">WhatsNewHostingController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Typealiases.html#/s:11WhatsNewKit0aB12VersionStorea">WhatsNewVersionStore</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Image</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Image</span></code></pre>
+
+                </div>
+              </div>
+            <p>A WhatsNew Feature Image</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Properties"></a>
+                <a name="//apple_ref/swift/Section/Properties" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Properties"></a>
+                  <h3 class="section-name"><span>Properties</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V7FeatureV5ImageV4view7SwiftUI7AnyViewVycvp"></a>
+                    <a name="//apple_ref/swift/Property/view" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V7FeatureV5ImageV4view7SwiftUI7AnyViewVycvp">view</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A closure that produces the Image View</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">view</span><span class="p">:</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">AnyView</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initializer"></a>
+                <a name="//apple_ref/swift/Section/Initializer" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Initializer"></a>
+                  <h3 class="section-name"><span>Initializer</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V7FeatureV5ImageV5imageAGxyc_tc7SwiftUI4ViewRzlufc"></a>
+                    <a name="//apple_ref/swift/Method/init(image:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V7FeatureV5ImageV5imageAGxyc_tc7SwiftUI4ViewRzlufc">init(image:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a new instance of <code>WhatsNew.Feature.Image</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">init</span><span class="o">&lt;</span><span class="kt">Image</span><span class="p">:</span> <span class="kt">View</span><span class="o">&gt;</span><span class="p">(</span>
+    <span class="kd">@ViewBuilder</span>
+    <span class="nv">image</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Image</span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>image</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A ViewBuilder closure that produces an Image View</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Image%2Binit%28image%3A%29"></a>
+                <a name="//apple_ref/swift/Section/Image+init(image:)" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Image%2Binit%28image%3A%29"></a>
+                  <h3 class="section-name"><span>Image+init(image:)</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V7FeatureV5ImageV5imageAG7SwiftUIAFV_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(image:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V7FeatureV5ImageV5imageAG7SwiftUIAFV_tcfc">init(image:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a new instance of <code>WhatsNew.Feature.Image</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span>
+    <span class="nv">image</span><span class="p">:</span> <span class="kt">Image</span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>image</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The Image</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Image%2Binit%28name%3A%29"></a>
+                <a name="//apple_ref/swift/Section/Image+init(name:)" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Image%2Binit%28name%3A%29"></a>
+                  <h3 class="section-name"><span>Image+init(name:)</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V7FeatureV5ImageV4name6bundle13renderingMode15foregroundColorAGSS_So8NSBundleC7SwiftUIAFV017TemplateRenderingI0OSgAN0K0VSgtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(name:bundle:renderingMode:foregroundColor:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V7FeatureV5ImageV4name6bundle13renderingMode15foregroundColorAGSS_So8NSBundleC7SwiftUIAFV017TemplateRenderingI0OSgAN0K0VSgtcfc">init(name:<wbr>bundle:<wbr>renderingMode:<wbr>foregroundColor:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a new instance of <code>WhatsNew.Feature.Image</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span>
+    <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+    <span class="nv">bundle</span><span class="p">:</span> <span class="kt">Bundle</span> <span class="o">=</span> <span class="o">.</span><span class="n">main</span><span class="p">,</span>
+    <span class="nv">renderingMode</span><span class="p">:</span> <span class="kt">Image</span><span class="o">.</span><span class="kt">TemplateRenderingMode</span><span class="p">?</span> <span class="o">=</span> <span class="o">.</span><span class="n">template</span><span class="p">,</span>
+    <span class="nv">foregroundColor</span><span class="p">:</span> <span class="kt">Color</span><span class="p">?</span> <span class="o">=</span> <span class="o">.</span><span class="n">accentColor</span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>name</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the image resource to lookup</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>bundle</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The bundle to search for the image resource. Default value <code>.main</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>renderingMode</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The mode SwiftUI uses to render images. Default value <code>.template</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>foregroundColor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The foreground color to use when displaying this view. Default value <code>.accentColor</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Image%2Binit%28systemName%3A%29"></a>
+                <a name="//apple_ref/swift/Section/Image+init(systemName:)" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Image%2Binit%28systemName%3A%29"></a>
+                  <h3 class="section-name"><span>Image+init(systemName:)</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V7FeatureV5ImageV10systemName13renderingMode15foregroundColorAGSS_7SwiftUIAFV017TemplateRenderingI0OSgAK0K0VSgtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(systemName:renderingMode:foregroundColor:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V7FeatureV5ImageV10systemName13renderingMode15foregroundColorAGSS_7SwiftUIAFV017TemplateRenderingI0OSgAK0K0VSgtcfc">init(systemName:<wbr>renderingMode:<wbr>foregroundColor:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a new instance of <code>WhatsNew.Feature.Image</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span>
+    <span class="nv">systemName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+    <span class="nv">renderingMode</span><span class="p">:</span> <span class="kt">Image</span><span class="o">.</span><span class="kt">TemplateRenderingMode</span><span class="p">?</span> <span class="o">=</span> <span class="o">.</span><span class="n">template</span><span class="p">,</span>
+    <span class="nv">foregroundColor</span><span class="p">:</span> <span class="kt">Color</span><span class="p">?</span> <span class="o">=</span> <span class="o">.</span><span class="n">accentColor</span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>systemName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the system symbol image</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>renderingMode</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The mode SwiftUI uses to render images. Default value <code>.template</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>foregroundColor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The foreground color to use when displaying this view. Default value <code>.accentColor</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit0aB0V7FeatureV5ImageV10systemName13renderingMode016symboldRenderingI015foregroundColorAGSS_7SwiftUIAFV08TemplatekI0OSgAL06SymbolkI0VSgAL0M0VSgtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(systemName:renderingMode:symboldRenderingMode:foregroundColor:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit0aB0V7FeatureV5ImageV10systemName13renderingMode016symboldRenderingI015foregroundColorAGSS_7SwiftUIAFV08TemplatekI0OSgAL06SymbolkI0VSgAL0M0VSgtcfc">init(systemName:<wbr>renderingMode:<wbr>symboldRenderingMode:<wbr>foregroundColor:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a new instance of <code>WhatsNew.Feature.Image</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">15.0</span><span class="p">,</span> <span class="n">macOS</span> <span class="mf">12.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="nf">init</span><span class="p">(</span>
+    <span class="nv">systemName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+    <span class="nv">renderingMode</span><span class="p">:</span> <span class="kt">Image</span><span class="o">.</span><span class="kt">TemplateRenderingMode</span><span class="p">?</span> <span class="o">=</span> <span class="o">.</span><span class="n">template</span><span class="p">,</span>
+    <span class="nv">symboldRenderingMode</span><span class="p">:</span> <span class="kt">SymbolRenderingMode</span><span class="p">?,</span>
+    <span class="nv">foregroundColor</span><span class="p">:</span> <span class="kt">Color</span><span class="p">?</span> <span class="o">=</span> <span class="o">.</span><span class="n">accentColor</span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>systemName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the system symbol image</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>renderingMode</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The mode SwiftUI uses to render images. Default value <code>.template</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>symboldRenderingMode</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The symbol rendering mode to use</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>foregroundColor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The foreground color to use when displaying this view. Default value <code>.accentColor</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2022-01-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

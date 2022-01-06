@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>WhatsNewViewController Class Reference</title>
+    <title>NSUbiquitousKeyValueWhatsNewVersionStore Structure Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -13,8 +13,8 @@
     <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/WhatsNewViewController" class="dashAnchor"></a>
-    <a title="WhatsNewViewController Class Reference"></a>
+    <a name="//apple_ref/swift/Struct/NSUbiquitousKeyValueWhatsNewVersionStore" class="dashAnchor"></a>
+    <a title="NSUbiquitousKeyValueWhatsNewVersionStore Structure Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html"> Docs</a> (100% documented)</p>
@@ -29,7 +29,7 @@
       <p id="breadcrumbs">
         <a href="../index.html"> Reference</a>
         <img id="carat" src="../img/carat.png" alt=""/>
-        WhatsNewViewController Class Reference
+        NSUbiquitousKeyValueWhatsNewVersionStore Structure Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -151,26 +151,37 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>WhatsNewViewController</h1>
+            <h1>NSUbiquitousKeyValueWhatsNewVersionStore</h1>
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">WhatsNewViewController</span> <span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:11WhatsNewKit0aB17HostingControllera">WhatsNewHostingController</a></span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">NSUbiquitousKeyValueWhatsNewVersionStore</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">NSUbiquitousKeyValueWhatsNewVersionStore</span><span class="p">:</span> <span class="kt"><a href="../Protocols/WriteableWhatsNewVersionStore.html">WriteableWhatsNewVersionStore</a></span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">NSUbiquitousKeyValueWhatsNewVersionStore</span><span class="p">:</span> <span class="kt"><a href="../Protocols/ReadableWhatsNewVersionStore.html">ReadableWhatsNewVersionStore</a></span></code></pre>
 
                 </div>
               </div>
-            <p>A WhatsNew UIViewController</p>
+            <p>A NSUbiquitousKeyValue WhatsNewVersionStore</p>
 
           </section>
           <section class="section task-group-section">
             <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initializer"></a>
+                <a name="//apple_ref/swift/Section/Initializer" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Initializer"></a>
+                  <h3 class="section-name"><span>Initializer</span>
+</h3>
+                </div>
+              </div>
               <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11WhatsNewKit0aB14ViewControllerC05whatsB06layoutAcA0aB0V_AG6LayoutVtcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(whatsNew:layout:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11WhatsNewKit0aB14ViewControllerC05whatsB06layoutAcA0aB0V_AG6LayoutVtcfc">init(whatsNew:<wbr>layout:<wbr>)</a>
+                    <a name="/s:11WhatsNewKit020NSUbiquitousKeyValueaB12VersionStoreV010ubiquitousefH0ACSo0defH0C_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(ubiquitousKeyValueStore:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit020NSUbiquitousKeyValueaB12VersionStoreV010ubiquitousefH0ACSo0defH0C_tcfc">init(ubiquitousKeyValueStore:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -178,7 +189,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Creates a new instance of <code>WhatsNewViewController</code></p>
+                        <p>Creates a new instance of <code>NSUbiquitousKeyValueWhatsNewVersionStore</code></p>
 
                       </div>
                       <div class="declaration">
@@ -186,8 +197,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span>
-    <span class="nv">whatsNew</span><span class="p">:</span> <span class="kt"><a href="../Structs/WhatsNew.html">WhatsNew</a></span><span class="p">,</span>
-    <span class="nv">layout</span><span class="p">:</span> <span class="kt"><a href="../Structs/WhatsNew.html">WhatsNew</a></span><span class="o">.</span><span class="kt">Layout</span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span>
+    <span class="nv">ubiquitousKeyValueStore</span><span class="p">:</span> <span class="kt">NSUbiquitousKeyValueStore</span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span>
 <span class="p">)</span></code></pre>
 
                         </div>
@@ -199,24 +209,12 @@
                             <tr>
                               <td>
                                 <code>
-                                <em>whatsNew</em>
+                                <em>ubiquitousKeyValueStore</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>The WhatsNew object</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>layout</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The WhatsNew Layout. Default value <code>.default</code></p>
+                                  <p>The NSUbiquitousKeyValueWhatsNewVersionStore. Default value <code>.default</code></p>
                                 </div>
                               </td>
                             </tr>
@@ -226,12 +224,25 @@
                     </section>
                   </div>
                 </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/WriteableWhatsNewVersionStore"></a>
+                <a name="//apple_ref/swift/Section/WriteableWhatsNewVersionStore" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/WriteableWhatsNewVersionStore"></a>
+                  <h3 class="section-name"><span>WriteableWhatsNewVersionStore</span>
+</h3>
+                </div>
+              </div>
+              <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11WhatsNewKit0aB14ViewControllerC05whatsB012versionStore6layoutACSgAA0aB0V_AA08Readableab7VersionH0_AA09WriteableabkH0pAI6LayoutVtcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(whatsNew:versionStore:layout:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11WhatsNewKit0aB14ViewControllerC05whatsB012versionStore6layoutACSgAA0aB0V_AA08Readableab7VersionH0_AA09WriteableabkH0pAI6LayoutVtcfc">init(whatsNew:<wbr>versionStore:<wbr>layout:<wbr>)</a>
+                    <a name="/s:11WhatsNewKit020NSUbiquitousKeyValueaB12VersionStoreV4save09presentedG0yAA0aB0V0G0V_tF"></a>
+                    <a name="//apple_ref/swift/Method/save(presentedVersion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit020NSUbiquitousKeyValueaB12VersionStoreV4save09presentedG0yAA0aB0V0G0V_tF">save(presentedVersion:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -239,21 +250,15 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Creates a new instance of <code>WhatsNewViewController</code>
-by using the provided <code><a href="../Typealiases.html#/s:11WhatsNewKit0aB12VersionStorea">WhatsNewVersionStore</a></code> to verify that the
-version of the WhatsNew object has not already been presented to the user.
-If the version is contained in the provided <code><a href="../Typealiases.html#/s:11WhatsNewKit0aB12VersionStorea">WhatsNewVersionStore</a></code> the initializer
-will return <code>nil</code></p>
+                        <p>Save presented WhatsNew Version</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">?(</span>
-    <span class="nv">whatsNew</span><span class="p">:</span> <span class="kt"><a href="../Structs/WhatsNew.html">WhatsNew</a></span><span class="p">,</span>
-    <span class="nv">versionStore</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:11WhatsNewKit0aB12VersionStorea">WhatsNewVersionStore</a></span><span class="p">,</span>
-    <span class="nv">layout</span><span class="p">:</span> <span class="kt"><a href="../Structs/WhatsNew.html">WhatsNew</a></span><span class="o">.</span><span class="kt">Layout</span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">save</span><span class="p">(</span>
+    <span class="n">presentedVersion</span> <span class="nv">version</span><span class="p">:</span> <span class="kt"><a href="../Structs/WhatsNew.html">WhatsNew</a></span><span class="o">.</span><span class="kt">Version</span>
 <span class="p">)</span></code></pre>
 
                         </div>
@@ -265,41 +270,97 @@ will return <code>nil</code></p>
                             <tr>
                               <td>
                                 <code>
-                                <em>whatsNew</em>
+                                <em>version</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>The WhatsNew object</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>versionStore</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The WhatsNewVersionStore</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>layout</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The WhatsNew Layout. Default value <code>.default</code></p>
+                                  <p>The presented WhatsNew Version that should be saved</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/ReadableWhatsNewVersionStore"></a>
+                <a name="//apple_ref/swift/Section/ReadableWhatsNewVersionStore" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/ReadableWhatsNewVersionStore"></a>
+                  <h3 class="section-name"><span>ReadableWhatsNewVersionStore</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit020NSUbiquitousKeyValueaB12VersionStoreV17presentedVersionsSayAA0aB0V0G0VGvp"></a>
+                    <a name="//apple_ref/swift/Property/presentedVersions" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit020NSUbiquitousKeyValueaB12VersionStoreV17presentedVersionsSayAA0aB0V0G0VGvp">presentedVersions</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The WhatsNew Versions that have been already been presented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">presentedVersions</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/WhatsNew.html">WhatsNew</a></span><span class="o">.</span><span class="kt">Version</span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Remove%20all"></a>
+                <a name="//apple_ref/swift/Section/Remove all" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Remove%20all"></a>
+                  <h3 class="section-name"><span>Remove all</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11WhatsNewKit020NSUbiquitousKeyValueaB12VersionStoreV9removeAllyyF"></a>
+                    <a name="//apple_ref/swift/Method/removeAll()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11WhatsNewKit020NSUbiquitousKeyValueaB12VersionStoreV9removeAllyyF">removeAll()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remove all presented Versions</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">removeAll</span><span class="p">()</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
