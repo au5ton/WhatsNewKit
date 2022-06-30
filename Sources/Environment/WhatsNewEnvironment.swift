@@ -100,7 +100,8 @@ open class WhatsNewEnvironment {
         let currentMinorVersion = WhatsNew.Version(
             major: self.currentVersion.major,
             minor: self.currentVersion.minor,
-            patch: 0
+            patch: 0,
+            build: 0
         )
         // Verify the current minor release Version has not been presented
         guard !presentedWhatsNewVersions.contains(currentMinorVersion) else {

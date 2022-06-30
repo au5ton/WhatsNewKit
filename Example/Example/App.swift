@@ -34,6 +34,20 @@ extension App: WhatsNewCollectionProvider {
     /// A WhatsNewCollection
     var whatsNewCollection: WhatsNewCollection {
         WhatsNew(
+            version: "1.0.0.4",
+            title: "whats up bitches",
+            features: [
+                .init(
+                    image: .init(
+                        systemName: "star.fill",
+                        foregroundColor: .orange
+                    ),
+                    title: "Showcase your new App Features",
+                    subtitle: "Present your new app features just like a native app from Apple."
+                )
+            ]
+        )
+        WhatsNew(
             version: "1.0.0",
             title: "WhatsNewKit",
             features: [

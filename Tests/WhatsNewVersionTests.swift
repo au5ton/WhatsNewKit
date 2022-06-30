@@ -7,7 +7,7 @@ import XCTest
 final class WhatsNewVersionTests: WhatsNewKitTestCase {
     
     func testStringLiteral() {
-        let whatsNewVersionString = "9.9.9"
+        let whatsNewVersionString = "9.9.9.0"
         let whatsNewVersion = WhatsNew.Version(stringLiteral: whatsNewVersionString)
         XCTAssertEqual(
             whatsNewVersionString,
@@ -19,7 +19,7 @@ final class WhatsNewVersionTests: WhatsNewKitTestCase {
         let whatsNewVersionString = UUID().uuidString
         let whatsNewVersion = WhatsNew.Version(stringLiteral: whatsNewVersionString)
         XCTAssertEqual(
-            "0.0.0",
+            "0.0.0.0",
             whatsNewVersion.description
         )
     }

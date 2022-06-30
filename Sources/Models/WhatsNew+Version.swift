@@ -17,6 +17,9 @@ public extension WhatsNew {
         
         /// The patch version
         public let patch: Int
+      
+        /// The exact build (for TestFlight)
+        public let build: Int
         
         // MARK: Initializer
         
@@ -28,11 +31,13 @@ public extension WhatsNew {
         public init(
             major: Int,
             minor: Int,
-            patch: Int
+            patch: Int,
+            build: Int = 0
         ) {
             self.major = major
             self.minor = minor
             self.patch = patch
+            self.build = build
         }
         
     }
@@ -66,7 +71,8 @@ extension WhatsNew.Version: CustomStringConvertible {
         [
             self.major,
             self.minor,
-            self.patch
+            self.patch,
+            self.build
         ]
         .map(String.init)
         .joined(separator: ".")
@@ -87,6 +93,7 @@ extension WhatsNew.Version: ExpressibleByStringLiteral {
         self.major = components.indices.contains(0) ? components[0] : 0
         self.minor = components.indices.contains(1) ? components[1] : 0
         self.patch = components.indices.contains(2) ? components[2] : 0
+        self.build = components.indices.contains(3) ? components[3] : 0
     }
     
 }
@@ -103,6 +110,17 @@ public extension WhatsNew.Version {
     ) -> WhatsNew.Version {
         // Retrieve Bundle short Version String
         let shortVersionString = bundle.infoDictionary?["CFBundleShortVersionString"] as? String
+        let buildNumber = bundle.infoDictionary?["CFBundleVersion"] as? String
+        if let shortVersionString = shortVersionString, let buildNumber = buildNumber {
+            /// Sometimes a "patch" might be omitted, but we don't want to accidentally treat the buildNumber as the patch
+            let components = shortVersionString.components(separatedBy: ".").compactMap(Int.init)
+            let major = components.indices.contains(0) ? components[0] : 0
+            let minor = components.indices.contains(1) ? components[1] : 0
+            let patch = components.indices.contains(2) ? components[2] : 0
+            
+            return .init(stringLiteral: "\(major).\(minor).\(patch).\(buildNumber)")
+        }
+        
         // Return initialized Version via String Literal
         return .init(
             stringLiteral: shortVersionString ?? ""
